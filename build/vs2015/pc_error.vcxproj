@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\source\clockcom.cpp" />
-    <ClCompile Include="..\source\main.cpp" />
-    <ClCompile Include="..\source\pcc_distortion.cpp" />
-    <ClCompile Include="..\source\pcc_processing.cpp" />
+    <ClCompile Include="..\..\source\clockcom.cpp" />
+    <ClCompile Include="..\..\source\main.cpp" />
+    <ClCompile Include="..\..\source\pcc_distortion.cpp" />
+    <ClCompile Include="..\..\source\pcc_processing.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\source\clockcom.hpp" />
-    <ClInclude Include="..\source\pcc_distortion.hpp" />
-    <ClInclude Include="..\source\pcc_processing.hpp" />
+    <ClInclude Include="..\..\source\clockcom.hpp" />
+    <ClInclude Include="..\..\source\pcc_distortion.hpp" />
+    <ClInclude Include="..\..\source\pcc_processing.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1159CE08-133F-454C-8499-DAE06A88E94C}</ProjectGuid>
@@ -104,7 +104,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(BOOST)\;..\source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST)\;..\..\source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,7 +120,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(BOOST)\;..\source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST)\;..\..\source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,7 +138,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(BOOST)\;..\source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST)\;..\..\source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,7 +158,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(BOOST)\;..\source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST)\;..\..\source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

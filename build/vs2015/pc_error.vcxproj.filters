@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\source\main.cpp">
+    <ClCompile Include="..\..\source\clockcom.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\clockcom.cpp">
+    <ClCompile Include="..\..\source\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\pcc_processing.cpp">
+    <ClCompile Include="..\..\source\pcc_distortion.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\pcc_distortion.cpp">
+    <ClCompile Include="..\..\source\pcc_processing.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\source\clockcom.hpp">
+    <ClInclude Include="..\..\source\clockcom.hpp">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\source\pcc_distortion.hpp">
+    <ClInclude Include="..\..\source\pcc_distortion.hpp">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\source\pcc_processing.hpp">
+    <ClInclude Include="..\..\source\pcc_processing.hpp">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
